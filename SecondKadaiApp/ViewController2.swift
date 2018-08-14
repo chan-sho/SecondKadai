@@ -10,10 +10,22 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    @IBOutlet weak var ButtonToGoBack: UIButton!
+    
+    @IBOutlet weak var NameShowText: UILabel!
+    var name : String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        switch name {
+        case ""?:
+            NameShowText.text = "【戻る】ボタンを押して、名前を入力して下さい"
+            NameShowText.textColor = UIColor.red // 赤
+        default :
+            NameShowText.text = "こんにちは\(name!)さん"
+            NameShowText.textColor = UIColor.blue // 青
+        }
     }
 
     override func didReceiveMemoryWarning() {
