@@ -12,6 +12,7 @@
 		31D909272122FC260011CEF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D909252122FC260011CEF4 /* Main.storyboard */; };
 		31D909292122FC260011CEF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D909282122FC260011CEF4 /* Assets.xcassets */; };
 		31D9092C2122FC260011CEF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D9092A2122FC260011CEF4 /* LaunchScreen.storyboard */; };
+		31D909342122FCCA0011CEF4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D909332122FCCA0011CEF4 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		31D909282122FC260011CEF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D9092B2122FC260011CEF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D9092D2122FC260011CEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D909332122FCCA0011CEF4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				31D909212122FC260011CEF4 /* AppDelegate.swift */,
 				31D909232122FC260011CEF4 /* ViewController.swift */,
+				31D909332122FCCA0011CEF4 /* ViewController2.swift */,
 				31D909252122FC260011CEF4 /* Main.storyboard */,
 				31D909282122FC260011CEF4 /* Assets.xcassets */,
 				31D9092A2122FC260011CEF4 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				31D909242122FC260011CEF4 /* ViewController.swift in Sources */,
 				31D909222122FC260011CEF4 /* AppDelegate.swift in Sources */,
+				31D909342122FCCA0011CEF4 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
