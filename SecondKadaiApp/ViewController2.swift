@@ -11,7 +11,6 @@ import UIKit
 class ViewController2: UIViewController {
 
     @IBOutlet weak var ButtonToGoBack: UIButton!
-    
     @IBOutlet weak var NameShowText: UILabel!
     var name : String?
     
